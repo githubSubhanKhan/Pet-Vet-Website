@@ -239,7 +239,16 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .feature--ink p { color: #C9D6DE; }
 .feature--ink a { color: var(--sun); font-weight: 700; white-space: nowrap; }
 
-.svc { margin-top: 56px; }
+.svc { margin-top: 32px; }
+.svc__toggle { display: flex; width: fit-content; margin-inline: auto; list-style: none; cursor: pointer; }
+.svc__toggle::-webkit-details-marker { display: none; }
+.svc__toggle .ico { transition: transform .3s var(--ease); }
+.svc__toggle-less { display: none; }
+.svc[open] .svc__toggle { margin-bottom: 40px; }
+.svc[open] .svc__toggle .ico { transform: rotate(45deg); }
+.svc[open] .svc__toggle-more { display: none; }
+.svc[open] .svc__toggle-less { display: inline; }
+.svc[open] > :not(summary) { animation: fade-in .3s var(--ease); }
 .svc__filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   border: 1.5px solid var(--line); background: var(--white); border-radius: 999px;

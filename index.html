@@ -212,7 +212,13 @@
       </article>
     </div>
 
-    <div class="svc">
+    <details class="svc">
+      <summary class="btn btn--ink svc__toggle">
+        <span class="svc__toggle-more">See all 20 services</span>
+        <span class="svc__toggle-less">Hide full list</span>
+        <svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg>
+      </summary>
+
       <div class="svc__filters" role="toolbar" aria-label="Filter services">
         <button type="button" class="chip" aria-pressed="true" data-filter="all">All services</button>
         <button type="button" class="chip" aria-pressed="false" data-filter="everyday">Everyday care</button>
@@ -245,7 +251,7 @@
         <li data-cat="exotic"><h3>Reptiles</h3><p>Medical care and habitat advice for lizards, snakes and turtles.</p></li>
         <li data-cat="comfort"><h3>Hospice and euthanasia</h3><p>Gentle, unhurried support when it's time to say goodbye.</p></li>
       </ul>
-    </div>
+    </details>
   </div>
 </section>
 
