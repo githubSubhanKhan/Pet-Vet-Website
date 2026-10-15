@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Massapequa Pet Vet | Family-owned animal hospital in Massapequa, NY</title>
+  <meta name="description" content="NYS-accredited, family-owned animal hospital in Massapequa, NY since 1996. Wellness, surgery, dental, emergency care and exotic pet medicine for dogs, cats, birds, rabbits, reptiles and more. Se habla español.">
+  <meta name="theme-color" content="#1F5A7A">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Massapequa Pet Vet">
+  <meta property="og:description" content="Quality care with a warm heart, for every pet in the family. Family-owned in Massapequa since 1996.">
+  <meta property="og:image" content="images/og-image.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Massapequa Pet Vet",
+    "url": "https://www.mpetvet.com/",
+    "telephone": "+1-516-797-8387",
+    "faxNumber": "+1-516-798-3061",
+    "email": "Massapequapetvet@mpetvet.com",
+    "address": {"@type": "PostalAddress", "streetAddress": "5330 Merrick Road", "addressLocality": "Massapequa", "addressRegion": "NY", "postalCode": "11758", "addressCountry": "US"},
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Friday","Saturday"], "opens": "08:30", "closes": "17:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Thursday"], "opens": "08:30", "closes": "19:00"}
+    ],
+    "availableLanguage": ["English", "Spanish"],
+    "paymentAccepted": "Cash, Visa, Mastercard, Discover, American Express, CareCredit"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Icon sprites (inline so they work when the file is opened directly) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M16 3v4M8 3v4M3 10h18M9 15l2 2 4-4"/></symbol>
+    <symbol id="i-portal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="12" cy="10" r="2.5"/><path d="M7.5 16.5c1-2 2.6-3 4.5-3s3.5 1 4.5 3"/></symbol>
+    <symbol id="i-pill" viewBox="0 0 24 24"><path d="M10.5 20.5a5 5 0 0 1-7-7l6-6a5 5 0 0 1 7 7z"/><path d="M8.5 8.5l7 7"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M12 18c-2.5-1.6-4-3-4-4.5a2 2 0 0 1 4-1 2 2 0 0 1 4 1c0 1.5-1.5 2.9-4 4.5z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4M12 17.2v.1"/></symbol>
+    <symbol id="i-scalpel" viewBox="0 0 24 24"><path d="M14 4 4 14l3 3 3-1 10-10a2.1 2.1 0 0 0-3-3z"/><path d="M4 14l-1 6 4-3"/></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a4 4 0 0 0 8 0v-2"/><circle cx="19" cy="12" r="2"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 10h18M7 15h4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+    <symbol id="sp-dog" viewBox="0 0 48 48"><path d="M14 20c0-7 4.5-11 10-11s10 4 10 11v6c0 7-4.5 11-10 11s-10-4-10-11z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M14.5 14c-4.5 0-7.5 4.5-6.5 11 .5 3 3.2 3.4 4.6 1.2C14 24 15 18 14.5 14zM33.5 14c4.5 0 7.5 4.5 6.5 11-.5 3-3.2 3.4-4.6 1.2C34 24 33 18 33.5 14z" fill="var(--i-line,#12283A)"/><circle cx="19.5" cy="22.5" r="1.7" fill="var(--i-line,#12283A)"/><circle cx="28.5" cy="22.5" r="1.7" fill="var(--i-line,#12283A)"/><ellipse cx="24" cy="28.5" rx="2.8" ry="2.1" fill="var(--i-line,#12283A)"/><path d="M24 30.5v2.6m0 0c-1.4 1.8-3.4 1.8-4.4.6m4.4-.6c1.4 1.8 3.4 1.8 4.4.6" fill="none" stroke="var(--i-line,#12283A)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol>
+<symbol id="sp-cat" viewBox="0 0 48 48"><path d="M13.5 26 13 11l8.5 8.2M34.5 26 35 11l-8.5 8.2" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.5 30c0-7 5.2-11.5 12.5-11.5S36.5 23 36.5 30 31.2 40 24 40s-12.5-3-12.5-10z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="19" cy="28.5" rx="1.5" ry="2.4" fill="var(--i-line,#12283A)"/><ellipse cx="29" cy="28.5" rx="1.5" ry="2.4" fill="var(--i-line,#12283A)"/><path d="M22.4 32.6h3.2L24 34.3z" fill="var(--i-line,#12283A)"/><path d="M18 33.5l-7.5-1M18 35.8l-7 2M30 33.5l7.5-1M30 35.8l7 2" fill="none" stroke="var(--i-line,#12283A)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/></symbol>
+<symbol id="sp-rabbit" viewBox="0 0 48 48"><path d="M19.5 21.5C16 17 15 7.5 18 5.5s5.5 6 5 15M28.5 21.5C32 17 33 7.5 30 5.5s-5.5 6-5 15" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.5 31c0-6.5 5-10.5 11.5-10.5S35.5 24.5 35.5 31 30.5 41 24 41s-11.5-3.5-11.5-10z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19.5" cy="29.5" r="1.6" fill="var(--i-line,#12283A)"/><circle cx="28.5" cy="29.5" r="1.6" fill="var(--i-line,#12283A)"/><path d="M22.8 33.2h2.4L24 34.6z" fill="var(--i-line,#12283A)"/><path d="M24 34.6v1.6m0 0c-1 1-2.4 1-3 .2m3-.2c1 1 2.4 1 3 .2" fill="none" stroke="var(--i-line,#12283A)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/></symbol>
+<symbol id="sp-ferret" viewBox="0 0 48 48"><circle cx="13.5" cy="17" r="3.5" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34.5" cy="17" r="3.5" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.5 27c0-7.5 6.5-12 14.5-12s14.5 4.5 14.5 12S32 39 24 39 9.5 34.5 9.5 27z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.5 26.5c3.4-3.6 8.6-4 12.5-1 3.9-3 9.1-2.6 12.5 1-2.4 3.4-7 4.2-12.5 2.2-5.5 2-10.1 1.2-12.5-2.2z" fill="var(--i-line,#12283A)"/><circle cx="19" cy="26.6" r="1.3" fill="#fff"/><circle cx="29" cy="26.6" r="1.3" fill="#fff"/><ellipse cx="24" cy="32.4" rx="2.4" ry="1.7" fill="var(--i-line,#12283A)"/></symbol>
+<symbol id="sp-bird" viewBox="0 0 48 48"><path d="M13 31c0-8.5 6.2-14.5 13.5-14.5 5.4 0 9.5 4 9.5 9.2C36 34 29 40 20.5 40l-6.2 4 1-6.2C13.8 35.6 13 33.4 13 31z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35.6 23.2l5 2.4-5 2.8" fill="#F2B33D" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="22.6" r="1.7" fill="var(--i-line,#12283A)"/><path d="M16.5 30.5c4.5-1.4 9.4.6 11.6 6" fill="none" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 44h30" fill="none" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="sp-reptile" viewBox="0 0 48 48"><path d="M7 33c0-9.4 7.6-15.5 16.5-15.5S40 23.6 40 33z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 33l3-8h10l3 8M18.5 25l-3-5.2M28.5 25l3-5.2" fill="none" stroke="var(--i-line,#12283A)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><path d="M40 28.5c1.6-2.5 6.5-2 6.5 1.6 0 2.8-3 3.6-6.5 3" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="43.4" cy="29.4" r="1" fill="var(--i-line,#12283A)"/><path d="M5 33h37M12 33v4.5M34 33v4.5" fill="none" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="sp-fish" viewBox="0 0 48 48"><path d="M10 24c5-7.6 12.6-11 20.4-11 6 0 10.6 4.8 12.6 11-2 6.2-6.6 11-12.6 11C22.6 35 15 31.6 10 24z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 24 4 17.5v13z" fill="var(--i-fill,#DCEEE6)" stroke="var(--i-line,#12283A)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="35.4" cy="22" r="1.8" fill="var(--i-line,#12283A)"/><path d="M28 17.5c2 4 2 9 0 13" fill="none" stroke="var(--i-line,#12283A)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ UTILITY BAR ============ -->
+<div class="utility">
+  <div class="wrap utility__inner">
+    <p class="utility__note">
+      <span>After hours, call <a href="tel:6315870800">631.587.0800</a></span>
+      <span class="utility__lang" lang="es">Se habla español</span>
+    </p>
+    <nav class="utility__links" aria-label="Client tools">
+      <a href="https://connect.allydvm.com/pet/massapequa/sign_in">Pet portal</a>
+      <a href="https://connect.allydvm.com/practice/massapequa/refill_request">Request a refill</a>
+      <a href="https://massapequapetvet.vetsfirstchoice.com/">Online pharmacy</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="wrap header__inner">
+    <a class="brand" href="#top" aria-label="Massapequa Pet Vet home">
+      <img class="brand__mark" src="images/favicon.svg" alt="" width="40" height="40">
+      <span class="brand__name">Massapequa<br><strong>Pet Vet</strong></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#exotics">Exotic pets</a></li>
+        <li><a href="#team">Our vets</a></li>
+        <li><a href="#new-clients">New clients</a></li>
+        <li><a href="#visit">Visit us</a></li>
+      </ul>
+      <div class="nav__mobile-extra">
+        <a href="https://connect.allydvm.com/pet/massapequa/sign_in">Pet portal</a>
+        <a href="https://connect.allydvm.com/practice/massapequa/refill_request">Request a refill</a>
+        <a href="https://massapequapetvet.vetsfirstchoice.com/">Online pharmacy</a>
+        <p>After hours, call <a href="tel:6315870800">631.587.0800</a></p>
+      </div>
+    </nav>
+
+    <div class="header__actions">
+      <a class="header__phone" href="tel:5167978387">
+        <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span>(516) 797-8387</span>
+      </a>
+      <a class="btn btn--sun btn--sm" href="https://connect.allydvm.com/practice/massapequa/appointment_request">Book a visit</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg class="ico ico--open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ico ico--close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="status" data-status data-rise style="--d:0">
+        <span class="status__dot" aria-hidden="true"></span>
+        <span class="status__text">Checking today's hours</span>
+      </p>
+      <h1 id="hero-title" class="hero__title" data-rise style="--d:1">Quality care with a&nbsp;warm&nbsp;heart.</h1>
+      <p class="hero__lead" data-rise style="--d:2">
+        Massapequa's family-owned, New York State accredited animal hospital since 1996. Eight veterinarians caring for dogs, cats, birds, rabbits, reptiles and the rest of the household.
+      </p>
+      <div class="hero__ctas" data-rise style="--d:3">
+        <a class="btn btn--sun" href="https://connect.allydvm.com/practice/massapequa/appointment_request">
+          <svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg>
+          Request an appointment
+        </a>
+        <a class="btn btn--ghost" href="tel:5167978387">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          Call (516) 797-8387
+        </a>
+      </div>
+      <ul class="trust" data-rise style="--d:4">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg>NYS accredited</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg>Family-owned since 1996</li>
+        <li lang="es"><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>Se habla español</li>
+      </ul>
+    </div>
+
+    <div class="hero__art">
+      <img src="images/hero-pets.svg" alt="Illustration of a golden retriever and a grey tabby cat sitting together" width="640" height="560" fetchpriority="high">
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUICK TASKS ============ -->
+<section class="tasks" aria-label="Things you can do online">
+  <div class="wrap tasks__grid">
+    <a class="task task--primary" href="https://connect.allydvm.com/practice/massapequa/appointment_request">
+      <svg class="ico ico--lg" aria-hidden="true"><use href="#i-calendar"/></svg>
+      <span class="task__title">Request an appointment</span>
+      <span class="task__text">Pick a time that works and we'll confirm by phone.</span>
+    </a>
+    <a class="task" href="https://connect.allydvm.com/pet/massapequa/sign_in">
+      <svg class="ico ico--lg" aria-hidden="true"><use href="#i-portal"/></svg>
+      <span class="task__title">Pet portal</span>
+      <span class="task__text">Vaccine records, reminders and visit history.</span>
+    </a>
+    <a class="task" href="https://connect.allydvm.com/practice/massapequa/refill_request">
+      <svg class="ico ico--lg" aria-hidden="true"><use href="#i-pill"/></svg>
+      <span class="task__title">Request a refill</span>
+      <span class="task__text">Ask for a prescription refill without calling.</span>
+    </a>
+    <a class="task" href="https://massapequapetvet.vetsfirstchoice.com/">
+      <svg class="ico ico--lg" aria-hidden="true"><use href="#i-box"/></svg>
+      <span class="task__title">Online pharmacy</span>
+      <span class="task__text">Order medications and food for delivery.</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services section" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="services-title" class="section__title">Everything your pet needs, under one roof</h2>
+      <p class="section__lead">From first puppy shots to senior check-ups, surgery and same-day sick visits, we keep your pet's care in one place with a team that knows them.</p>
+    </div>
+
+    <div class="featured">
+      <article class="feature feature--mint">
+        <svg class="ico ico--xl" aria-hidden="true"><use href="#i-steth"/></svg>
+        <h3>Wellness and vaccines</h3>
+        <p>Yearly exams, vaccines and parasite prevention that catch small problems before they become big ones.</p>
+      </article>
+      <article class="feature feature--sun">
+        <svg class="ico ico--xl" aria-hidden="true"><use href="#i-scalpel"/></svg>
+        <h3>Surgery and dental care</h3>
+        <p>Routine and advanced procedures, dental cleanings and in-house X-rays, ultrasound and endoscopy.</p>
+      </article>
+      <article class="feature feature--ink">
+        <svg class="ico ico--xl" aria-hidden="true"><use href="#i-alert"/></svg>
+        <h3>Emergency and critical care</h3>
+        <p>Sick or injured pet? Call us first during office hours. After hours, call <a href="tel:6315870800">631.587.0800</a>.</p>
+      </article>
+    </div>
+
+    <div class="svc">
+      <div class="svc__filters" role="toolbar" aria-label="Filter services">
+        <button type="button" class="chip" aria-pressed="true" data-filter="all">All services</button>
+        <button type="button" class="chip" aria-pressed="false" data-filter="everyday">Everyday care</button>
+        <button type="button" class="chip" aria-pressed="false" data-filter="diagnostics">Diagnostics and surgery</button>
+        <button type="button" class="chip" aria-pressed="false" data-filter="urgent">Urgent care</button>
+        <button type="button" class="chip" aria-pressed="false" data-filter="exotic">Exotic pets</button>
+        <button type="button" class="chip" aria-pressed="false" data-filter="comfort">Comfort and end of life</button>
+      </div>
+      <p class="svc__count" aria-live="polite">Showing all 20 services</p>
+
+      <ul class="svc__list">
+        <li data-cat="everyday"><h3>Wellness exams</h3><p>Nose-to-tail check-ups that track how your pet is doing year to year.</p></li>
+        <li data-cat="everyday"><h3>Vaccinations</h3><p>Core and lifestyle vaccines on a schedule that fits your pet.</p></li>
+        <li data-cat="everyday"><h3>Dental care</h3><p>Cleanings and oral exams that keep teeth and gums healthy.</p></li>
+        <li data-cat="everyday"><h3>Senior care</h3><p>Extra attention to joints, organs and comfort as pets get older.</p></li>
+        <li data-cat="everyday"><h3>Nutritional counseling</h3><p>Feeding plans for weight, sensitive stomachs and every life stage.</p></li>
+        <li data-cat="everyday"><h3>Behavioral medicine</h3><p>Help with anxiety, aggression and habits that worry you.</p></li>
+        <li data-cat="everyday"><h3>Microchipping</h3><p>A quick, permanent ID that helps bring lost pets home.</p></li>
+        <li data-cat="everyday"><h3>Fully stocked pharmacy</h3><p>Pick up your pet's medication before you leave.</p></li>
+        <li data-cat="diagnostics"><h3>Surgery</h3><p>Spays, neuters and complex procedures in our own surgical suite.</p></li>
+        <li data-cat="diagnostics"><h3>Radiology (X-rays)</h3><p>In-house imaging so answers don't wait for a referral.</p></li>
+        <li data-cat="diagnostics"><h3>Ultrasound</h3><p>A gentle, non-invasive look at organs and soft tissue.</p></li>
+        <li data-cat="diagnostics"><h3>Endoscopy</h3><p>A camera exam that can find, and often retrieve, swallowed objects.</p></li>
+        <li data-cat="diagnostics"><h3>Internal medicine</h3><p>Careful work-ups for chronic and hard-to-diagnose illness.</p></li>
+        <li data-cat="diagnostics comfort"><h3>Pain management</h3><p>Comfort plans after surgery and for long-term conditions.</p></li>
+        <li data-cat="urgent"><h3>Emergency and critical care</h3><p>Same-day help for sick and injured pets during office hours.</p></li>
+        <li data-cat="urgent"><h3>Blood transfusions</h3><p>Life-saving transfusions for critically ill patients.</p></li>
+        <li data-cat="exotic"><h3>Avian medicine</h3><p>Check-ups, beak, nail and feather care for pet birds.</p></li>
+        <li data-cat="exotic"><h3>Rabbits and small mammals</h3><p>Care for rabbits, ferrets, guinea pigs and other small pets.</p></li>
+        <li data-cat="exotic"><h3>Reptiles</h3><p>Medical care and habitat advice for lizards, snakes and turtles.</p></li>
+        <li data-cat="comfort"><h3>Hospice and euthanasia</h3><p>Gentle, unhurried support when it's time to say goodbye.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXOTICS ============ -->
+<section class="exotics section" id="exotics" aria-labelledby="exotics-title">
+  <div class="wrap exotics__grid">
+    <div class="exotics__copy">
+      <h2 id="exotics-title" class="section__title">Not just dogs and cats</h2>
+      <p class="section__lead">Many animal hospitals turn away a bearded dragon or a cockatiel. We don't. Dr. Horowitz has a special interest in exotics, and Dr. Hall is a certified aquatic veterinarian who works with aquariums across Long Island, including the Long Island Aquarium.</p>
+      <a class="btn btn--sun" href="https://connect.allydvm.com/practice/massapequa/appointment_request">Book an exotic pet visit</a>
+    </div>
+    <ul class="species" aria-label="Animals we treat">
+      <li><svg aria-hidden="true"><use href="#sp-dog"/></svg><span>Dogs</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-cat"/></svg><span>Cats</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-ferret"/></svg><span>Ferrets</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-rabbit"/></svg><span>Rabbits and small mammals</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-bird"/></svg><span>Birds</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-reptile"/></svg><span>Reptiles</span></li>
+      <li><svg aria-hidden="true"><use href="#sp-fish"/></svg><span>Fish and aquatics</span></li>
+      <li class="species__ask"><a href="tel:5167978387"><strong>Something else?</strong><span>Call and ask us</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="team section" id="team" aria-labelledby="team-title">
+  <div class="wrap">
+    <div class="team__head">
+      <div>
+        <h2 id="team-title" class="section__title">Meet our veterinarians</h2>
+        <p class="section__lead">Most of our team grew up right here on Long Island, and several trained at Massapequa Pet Vet before joining full time.</p>
+      </div>
+      <div class="scroller-btns">
+        <button type="button" class="round-btn" data-scroll="-1" aria-label="Previous veterinarians"><svg class="ico" aria-hidden="true"><use href="#i-left"/></svg></button>
+        <button type="button" class="round-btn" data-scroll="1" aria-label="Next veterinarians"><svg class="ico" aria-hidden="true"><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+
+    <div class="owner">
+      <div class="avatar avatar--lg" data-initials="NH">
+        <img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/bios/dr_ned_horowitz_homepage.jpg" alt="Dr. Ned Horowitz" loading="lazy">
+      </div>
+      <div class="owner__body">
+        <p class="owner__role">Owner and medical director</p>
+        <h3 class="owner__name">Dr. Ned Horowitz</h3>
+        <p class="owner__creds">BVMS, MRCVS, BSc, Glasgow University</p>
+        <p>In practice since 1987 and the proud owner of Massapequa Pet Vet since 1996. Dr. Horowitz treats dogs, cats and every kind of exotic pet, with special interests in surgery, exotics and dentistry.</p>
+      </div>
+    </div>
+
+    <ul class="team__list" data-scroller>
+      <li class="vet">
+        <div class="avatar" data-initials="HA"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/bios/dr_hassan_1.jpg" alt="Dr. Hassan Amin" loading="lazy"></div>
+        <h3>Dr. Hassan Amin</h3><p class="vet__creds">DVM, Cornell University</p><p class="vet__focus">Internal medicine</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="AH"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/bios/Alex_J.png" alt="Dr. Alex J. Hall" loading="lazy"></div>
+        <h3>Dr. Alex J. Hall</h3><p class="vet__creds">BVetMed, MRCVS, CertAqV</p><p class="vet__focus">Aquatics and exotics</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="NK"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/nana_kramer.jpeg" alt="Dr. Nana Kramer" loading="lazy"></div>
+        <h3>Dr. Nana Kramer</h3><p class="vet__creds">Freie Universität Berlin</p><p class="vet__focus">Dermatology and senior care</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="JD"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/Dr_jasmine_duperval.png" alt="Dr. Jasmine Duperval" loading="lazy"></div>
+        <h3>Dr. Jasmine Duperval</h3><p class="vet__creds">DVM, St. George's University</p><p class="vet__focus">Small animal medicine</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="AE"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/drelgin.png" alt="Dr. Avery Elgin" loading="lazy"></div>
+        <h3>Dr. Avery Elgin</h3><p class="vet__creds">DVM, Ross University</p><p class="vet__focus">Surgery</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="SP"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/cid_5F5C51F5_3E68_4C17_A7B6_EE67ADD24E20.jpeg" alt="Dr. Sarah Parsons" loading="lazy"></div>
+        <h3>Dr. Sarah Parsons</h3><p class="vet__creds">BSc, DVM, LIU Veterinary Medicine</p><p class="vet__focus">Small animal medicine</p>
+      </li>
+      <li class="vet">
+        <div class="avatar" data-initials="TS"><img src="https://static.royacdn.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/Dr._Taylor_Sforza.png" alt="Dr. Taylor Sforza" loading="lazy"></div>
+        <h3>Dr. Taylor Sforza</h3><p class="vet__creds">St. George's University</p><p class="vet__focus">Working and sporting dogs</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ NEW CLIENTS ============ -->
+<section class="newclients section" id="new-clients" aria-labelledby="nc-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="nc-title" class="section__title">New to Massapequa Pet Vet?</h2>
+      <p class="section__lead">Three quick steps before your first visit, so we can spend the appointment on your pet.</p>
+    </div>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step__num" aria-hidden="true">1</span>
+        <h3>Fill out the registration form</h3>
+        <p>Download it, fill it in at home and bring it to your visit.</p>
+        <a class="link" href="https://s3.amazonaws.com/static.organiclead.com/Site-4d483d99-83b9-4e53-b712-5e3c91685562/assets/Registrstion_form_new.docx">
+          <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download the form
+        </a>
+      </li>
+      <li class="step">
+        <span class="step__num" aria-hidden="true">2</span>
+        <h3>Request your appointment</h3>
+        <p>Book online any time or call us during office hours.</p>
+        <a class="link" href="https://connect.allydvm.com/practice/massapequa/appointment_request">
+          <svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg>Request an appointment
+        </a>
+      </li>
+      <li class="step">
+        <span class="step__num" aria-hidden="true">3</span>
+        <h3>Send your pet's records</h3>
+        <p>Have your previous vet email records to us so we're ready when you arrive.</p>
+        <a class="link" href="mailto:reception@mpetvet.com">
+          <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>reception@mpetvet.com
+        </a>
+      </li>
+    </ol>
+
+    <div class="pay">
+      <div class="pay__copy">
+        <h3>Ways to pay</h3>
+        <p>We accept cash and all major cards. CareCredit lets you spread the cost of larger bills, and with Trupanion pet insurance, the insurer can pay us directly at checkout so you only pay your share.</p>
+      </div>
+      <ul class="pay__list" aria-label="Accepted payment methods">
+        <li>Cash</li><li>Visa</li><li>Mastercard</li><li>Discover</li><li>American Express</li><li>CareCredit</li><li>Trupanion direct pay</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMUNITY ============ -->
+<section class="community section" aria-labelledby="liwar-title">
+  <div class="wrap community__grid">
+    <img class="community__art" src="images/wildlife-owl.svg" alt="Illustration of a screech owl perched on a branch" width="420" height="420" loading="lazy">
+    <div>
+      <h2 id="liwar-title" class="section__title">Caring for Long Island's wildlife, too</h2>
+      <p class="section__lead">Massapequa Pet Vet sponsors Long Island Wildlife &amp; Animal Rescue (LIWAR), a not-for-profit 501(c)(3). Our doctors work alongside more than ten licensed rehabilitators to treat injured native animals, and together we save hundreds of them every year.</p>
+      <a class="btn btn--ink" href="mailto:Massapequapetvet@mpetvet.com?subject=Supporting%20LIWAR">Ask how you can help</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq section" aria-labelledby="faq-title">
+  <div class="wrap faq__grid">
+    <div>
+      <h2 id="faq-title" class="section__title">Common questions</h2>
+      <p class="section__lead">Can't find your answer? Call us at <a class="nowrap" href="tel:5167978387">(516) 797-8387</a>.</p>
+    </div>
+    <div class="faq__list">
+      <details>
+        <summary>What should I do if my pet needs help after hours?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <p>Call <a href="tel:6315870800">631.587.0800</a>. During office hours, call us first at (516) 797-8387 and we'll do our best to see your pet the same day.</p>
+      </details>
+      <details>
+        <summary>Do you see exotic pets?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <p>Yes. We care for birds, rabbits, ferrets and other small mammals, reptiles, and fish and aquatic animals, alongside dogs and cats.</p>
+      </details>
+      <details>
+        <summary>Can I refill my pet's prescription online?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <p>Yes. Use the <a href="https://connect.allydvm.com/practice/massapequa/refill_request">refill request form</a>, or order medications and food for delivery from our <a href="https://massapequapetvet.vetsfirstchoice.com/">online pharmacy</a>.</p>
+      </details>
+      <details>
+        <summary>How do I send or request my pet's records?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <p>Email <a href="mailto:reception@mpetvet.com">reception@mpetvet.com</a> or fax us at 516.798.3061. You can also see vaccine history in the <a href="https://connect.allydvm.com/pet/massapequa/sign_in">pet portal</a>.</p>
+      </details>
+      <details>
+        <summary lang="es">¿Hablan español?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <p lang="es">Sí. Tenemos personal que habla español. Llámenos al (516) 797-8387.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="visit section" id="visit" aria-labelledby="visit-title">
+  <div class="wrap visit__grid">
+    <div class="visit__info">
+      <h2 id="visit-title" class="section__title">Visit us on Merrick Road</h2>
+
+      <address class="contact">
+        <a class="contact__row" href="https://www.google.com/maps/place/5330+Merrick+Rd,+Massapequa,+NY+11758">
+          <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+          <span>5330 Merrick Road<br>Massapequa, NY 11758</span>
+        </a>
+        <a class="contact__row" href="tel:5167978387">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>(516) 797-8387<small>After hours: 631.587.0800 &nbsp; Fax: 516.798.3061</small></span>
+        </a>
+        <a class="contact__row" href="mailto:Massapequapetvet@mpetvet.com">
+          <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+          <span>Massapequapetvet@mpetvet.com</span>
+        </a>
+      </address>
+
+      <div class="hours">
+        <h3><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>Office hours</h3>
+        <table>
+          <tbody>
+            <tr data-day="1"><th scope="row">Monday</th><td>8:30 am – 5:00 pm</td></tr>
+            <tr data-day="2"><th scope="row">Tuesday</th><td>8:30 am – 7:00 pm</td></tr>
+            <tr data-day="3"><th scope="row">Wednesday</th><td>8:30 am – 5:00 pm</td></tr>
+            <tr data-day="4"><th scope="row">Thursday</th><td>8:30 am – 7:00 pm</td></tr>
+            <tr data-day="5"><th scope="row">Friday</th><td>8:30 am – 5:00 pm</td></tr>
+            <tr data-day="6"><th scope="row">Saturday</th><td>8:30 am – 5:00 pm</td></tr>
+            <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="visit__map">
+      <iframe title="Map showing Massapequa Pet Vet at 5330 Merrick Road" src="https://www.google.com/maps?q=Massapequa+Pet+Vet,+5330+Merrick+Rd,+Massapequa,+NY+11758&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <a class="btn btn--ink visit__dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=5330+Merrick+Rd,+Massapequa,+NY+11758">
+        <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Get directions
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="closing" aria-labelledby="closing-title">
+  <div class="wrap closing__inner">
+    <h2 id="closing-title">Your pet's next check-up is a few clicks away.</h2>
+    <div class="closing__ctas">
+      <a class="btn btn--sun" href="https://connect.allydvm.com/practice/massapequa/appointment_request">Request an appointment</a>
+      <a class="btn btn--ghost" href="tel:5167978387">Call (516) 797-8387</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <a class="brand brand--light" href="#top">
+        <img class="brand__mark" src="images/favicon.svg" alt="" width="40" height="40">
+        <span class="brand__name">Massapequa<br><strong>Pet Vet</strong></span>
+      </a>
+      <p class="footer__tag">Quality care with a warm heart, since 1996.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#exotics">Exotic pets</a></li>
+        <li><a href="#team">Our vets</a></li>
+        <li><a href="#new-clients">New clients</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Online tools">
+      <h3>Online</h3>
+      <ul>
+        <li><a href="https://connect.allydvm.com/practice/massapequa/appointment_request">Request an appointment</a></li>
+        <li><a href="https://connect.allydvm.com/pet/massapequa/sign_in">Pet portal</a></li>
+        <li><a href="https://connect.allydvm.com/practice/massapequa/refill_request">Request a refill</a></li>
+        <li><a href="https://massapequapetvet.vetsfirstchoice.com/">Online pharmacy</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h3>Contact</h3>
+      <p>5330 Merrick Road<br>Massapequa, NY 11758</p>
+      <p><a href="tel:5167978387">(516) 797-8387</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="footer__base">
+      <p>© <span data-year>2026</span> Massapequa Pet Vet. All rights reserved.</p>
+      <p>Concept redesign by East Coast Tech</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile action bar -->
+<div class="actionbar" aria-label="Quick actions">
+  <a href="tel:5167978387"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  <a class="actionbar__primary" href="https://connect.allydvm.com/practice/massapequa/appointment_request"><svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg>Book a visit</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" role="img" aria-labelledby="t" >
+  <style>.blink{animation:blink 6s infinite}@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}.float-heart{animation:float 4s ease-in-out infinite;transform-origin:352px 165px}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.blink-cat{animation-delay:1.3s}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <title id="t">A golden retriever and a grey tabby cat sitting side by side</title>
+  <!-- sun -->
+  <circle cx="330" cy="290" r="215" fill="#F7C863" opacity=".95"/>
+  <circle cx="330" cy="290" r="255" fill="none" stroke="#F7C863" stroke-width="2" stroke-dasharray="2 14" stroke-linecap="round" opacity=".7"/>
+  <!-- sparkles -->
+  <g fill="#FFFFFF" opacity=".9">
+    <path d="M118 150l6 16 16 6-16 6-6 16-6-16-16-6 16-6z"/>
+    <path d="M548 120l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="M560 300l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+  </g>
+
+  <!-- ============ DOG ============ -->
+  <g id="dog">
+    <!-- tail -->
+    <path d="M150 520c-40-6-62-40-52-72 4-12 18-12 20 0 4 26 20 40 44 44z" fill="#D9963F"/>
+    <!-- body -->
+    <path d="M150 560c0-140 40-222 110-222s110 82 110 222z" fill="#E3A653"/>
+    <!-- chest -->
+    <path d="M212 560c0-108 22-162 48-162s48 54 48 162z" fill="#F5D7A6"/>
+    <!-- leg line + paws -->
+    <path d="M260 470v80" stroke="#C98A43" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="232" cy="552" rx="26" ry="13" fill="#F5D7A6"/>
+    <ellipse cx="288" cy="552" rx="26" ry="13" fill="#F5D7A6"/>
+    <path d="M222 548v8M232 547v9M242 548v8M278 548v8M288 547v9M298 548v8" stroke="#D9B07A" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- collar -->
+    <path d="M200 326c34 20 86 20 120 0l4 16c-36 22-92 22-128 0z" fill="#12283A"/>
+    <circle cx="260" cy="356" r="14" fill="#F2B33D" stroke="#12283A" stroke-width="3"/>
+    <path d="M260 362c-6-4-9-7-9-10a4 4 0 0 1 9-2 4 4 0 0 1 9 2c0 3-3 6-9 10z" fill="#12283A"/>
+    <!-- head -->
+    <path d="M188 250c0-62 34-92 72-92s72 30 72 92c0 50-32 80-72 80s-72-30-72-80z" fill="#E8AE62"/>
+    <!-- ears -->
+    <path d="M202 198c-34 0-54 42-46 94 4 26 28 30 40 6 12-26 16-70 6-100z" fill="#B9742F"/>
+    <path d="M318 198c34 0 54 42 46 94-4 26-28 30-40 6-12-26-16-70-6-100z" fill="#B9742F"/>
+    <!-- muzzle -->
+    <ellipse cx="260" cy="292" rx="44" ry="33" fill="#F6DDB4"/>
+    <!-- brows -->
+    <path d="M220 222q12-8 24 0M276 222q12-8 24 0" stroke="#F6DDB4" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- eyes (blink target) -->
+    <g class="blink" style="transform-origin:260px 242px">
+      <circle cx="232" cy="242" r="8.5" fill="#2B1E18"/>
+      <circle cx="288" cy="242" r="8.5" fill="#2B1E18"/>
+      <circle cx="235" cy="239" r="2.6" fill="#fff"/>
+      <circle cx="291" cy="239" r="2.6" fill="#fff"/>
+    </g>
+    <!-- tongue, mouth, nose -->
+    <path d="M250 300q0 24 10 24t10-24z" fill="#E86E7A"/>
+    <path d="M260 307v-14" stroke="#C94E5C" stroke-width="2" stroke-linecap="round"/>
+    <path d="M260 280v16m0 0c-8 10-20 8-24 0m24 0c8 10 20 8 24 0" stroke="#2B1E18" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="260" cy="274" rx="15" ry="10.5" fill="#2B1E18"/>
+    <ellipse cx="255" cy="271" rx="4" ry="2.4" fill="#5A4639"/>
+    <!-- cheeks -->
+    <circle cx="212" cy="286" r="9" fill="#F0997A" opacity=".45"/>
+    <circle cx="308" cy="286" r="9" fill="#F0997A" opacity=".45"/>
+  </g>
+
+  <!-- ============ CAT ============ -->
+  <g id="cat">
+    <!-- tail -->
+    <path d="M492 548c70 2 88-70 56-104-12-12-26-2-18 10 22 30 8 66-38 70z" fill="#8C9AA6"/>
+    <path d="M538 470l14-6M548 498l15 0" stroke="#6E7C88" stroke-width="4" stroke-linecap="round"/>
+    <!-- body -->
+    <path d="M378 560c-2-92 22-142 62-142s64 50 62 142z" fill="#8C9AA6"/>
+    <path d="M388 492q12 4 16 16M492 492q-12 4-16 16M384 522q12 2 16 12M496 522q-12 2-16 12" stroke="#6E7C88" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M414 560c0-66 12-94 26-94s26 28 26 94z" fill="#E9EEF1"/>
+    <ellipse cx="424" cy="554" rx="15" ry="9" fill="#E9EEF1"/>
+    <ellipse cx="456" cy="554" rx="15" ry="9" fill="#E9EEF1"/>
+    <!-- ears -->
+    <path d="M398 352l6-58 30 28z" fill="#8C9AA6"/>
+    <path d="M482 352l-6-58-30 28z" fill="#8C9AA6"/>
+    <path d="M405 340l3-32 18 17z" fill="#F2B8B0"/>
+    <path d="M475 340l-3-32-18 17z" fill="#F2B8B0"/>
+    <!-- head -->
+    <path d="M390 372c0-38 22-56 50-56s50 18 50 56c0 30-22 50-50 50s-50-20-50-50z" fill="#8C9AA6"/>
+    <path d="M440 322v16M427 325l3 13M453 325l-3 13" stroke="#6E7C88" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="440" cy="396" rx="22" ry="15" fill="#E9EEF1"/>
+    <!-- eyes -->
+    <g class="blink blink-cat" style="transform-origin:440px 372px">
+      <ellipse cx="420" cy="372" rx="8" ry="9" fill="#C9D96B"/>
+      <ellipse cx="460" cy="372" rx="8" ry="9" fill="#C9D96B"/>
+      <ellipse cx="420" cy="372" rx="2.8" ry="7" fill="#1C2630"/>
+      <ellipse cx="460" cy="372" rx="2.8" ry="7" fill="#1C2630"/>
+      <circle cx="422" cy="368" r="1.8" fill="#fff"/>
+      <circle cx="462" cy="368" r="1.8" fill="#fff"/>
+    </g>
+    <!-- nose, mouth -->
+    <path d="M433 388h14l-7 7z" fill="#E58A92"/>
+    <path d="M440 395q-6 8-12 4M440 395q6 8 12 4" stroke="#4A5560" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <!-- whiskers -->
+    <path d="M416 392l-34-5M416 398l-32 4M464 392l34-5M464 398l32 4" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <!-- small floating heart -->
+  <path class="float-heart" d="M352 180c-14-9-22-17-22-25a10 10 0 0 1 22-5 10 10 0 0 1 22 5c0 8-8 16-22 25z" fill="#E86E7A"/>
+</svg>
